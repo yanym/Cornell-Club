@@ -444,7 +444,8 @@ ul#nav li.current a { color: #F06000; }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   position: absolute;
+   /* position: absolute; */  
+      /* 暂时被撤销掉了 */
    left: 0;
    top: 0;
    width: 100%;

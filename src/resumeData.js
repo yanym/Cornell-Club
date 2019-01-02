@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/yanym/Cornell-Club",
     "name": "Quantitative Research Club",
-    "role": "Quantitative Research Club",
+    "role": "Write Some detail in h3 tag",
     "linkedinId":"https://linkedin.com/in/yiming-yan-a6640111a/",
     "skypeid": "Write sth",
-    "roleDescription": "This is a club",
+    "roleDescription": "Write Some detail in regular text",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -17,8 +17,8 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"GAYHUB",
-          "url":"https://github.com/yanym",
+          "name":"twitter",
+          "url":"https://www.instagram.com/vency012/",
           "className":"fa fa-twitter"
         }
       ],
@@ -27,7 +27,7 @@ let resumeData = {
     "website":"https://github.com/yanym/Cornell-Club",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
+        "UniversityName":"Cornell",
         "specialization":"Some specialization3",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
@@ -69,26 +69,26 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "item":[
+    "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp1",
-        "imgurl":"../public/images/profilepic.jpg"
+        "imgurl":"images/profilepic1.jpg"
       },
       {
         "name":"project2",
         "description":"mobileap2p",
-        "imgurl":"../public/images/profilepic.jpg"
+        "imgurl":"images/profilepic2.jpg"
       },
       {
         "name":"project3",
         "description":"mobileapp3",  
-        "imgurl":"../public/images/profilepic.jpg"
+        "imgurl":"images/profilepic3.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp4",
-        "imgurl":"../public/images/profilepic.jpg"
+        "imgurl":"images/profilepic4.jpg"
       }
     ],
     "testimonials":[
