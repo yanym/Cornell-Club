@@ -8,7 +8,7 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://linkedin.com/in/yiming-yan-a6640111a/",
           "className":"fa fa-linkedin"
         },
         {
@@ -94,11 +94,11 @@ let resumeData = {
     "testimonials":[
       {
         "description":"fuckme1",
-        "name":"Some technical guy"
+        "name":"Topo"
       },
       {
-        "description":"fuck2",
-        "name":"Some technical guy"
+        "description":"fuck2me",
+        "name":"TP"
       }
     ]
   }
