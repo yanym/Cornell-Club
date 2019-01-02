@@ -1,5 +1,31 @@
 import React, { Component } from 'react';
+import Typed from 'typed.js';
+
 export default class Header extends Component {
+  componentDidMount() {
+  	// If you want to pass more options as props, simply add
+    // your desired props to this destructuring assignment.
+    const strings  = ['😀 😁 😂 🤣 😃 😄 😅 😆 😉', 'Cornell Club', '66666','23333', '🥺'];
+    // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
+    const options = {
+    	strings: strings,
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true,
+      loopCount: Infinity
+    };
+    // this.el refers to the <span> in the render() method
+    this.typed = new Typed(this.el, options);
+  }
+
+  componentWillUnmount() {
+  	// Make sure to destroy Typed instance on unmounting
+    // to prevent memory leaks
+    this.typed.destroy();
+  }
+
+  
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -20,7 +46,17 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline"> {resumeData.name}</h1>
+
+               {/* <h1 className="responsive-headline"> {resumeData.name}</h1> */}
+               <div className="wrap">
+                <h1 className="type-wrap">
+                  <span
+                    style={{ whiteSpace: 'pre' }}
+                    ref={(el) => { this.el = el; }}
+                  />
+                </h1>
+              </div>
+
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> 
                 {resumeData.role} 
                </h3>
