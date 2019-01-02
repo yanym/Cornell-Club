@@ -1,10 +1,10 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"https://github.com/yanym/Cornell-Club",
     "name": "Quantitative Research Club",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "role": "Quantitative Research Club",
+    "linkedinId":"https://linkedin.com/in/yiming-yan-a6640111a/",
+    "skypeid": "Write sth",
+    "roleDescription": "This is a club",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -13,29 +13,29 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/yanym/Cornell-Club",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"GAYHUB",
+          "url":"https://github.com/yanym",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a club!",
+    "address":"Cornell University",
+    "website":"https://github.com/yanym/Cornell-Club",
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "specialization":"Some specialization3",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
         "Achievements":"Some Achievements"
       },
       {
         "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "specialization":"Some specialization4",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
         "Achievements":"Some Achievements"
@@ -44,14 +44,14 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "specialization":"Some specialization1",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Some Company2",
+        "specialization":"Some specialization2",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
@@ -69,35 +69,35 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "portfolio":[
+    "item":[
       {
         "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"mobileapp1",
+        "imgurl":"../public/images/profilepic.jpg"
       },
       {
         "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "description":"mobileap2p",
+        "imgurl":"../public/images/profilepic.jpg"
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "description":"mobileapp3",  
+        "imgurl":"../public/images/profilepic.jpg"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"mobileapp4",
+        "imgurl":"../public/images/profilepic.jpg"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
+        "description":"fuckme1",
         "name":"Some technical guy"
       },
       {
-        "description":"This is a sample testimonial",
+        "description":"fuck2",
         "name":"Some technical guy"
       }
     ]
