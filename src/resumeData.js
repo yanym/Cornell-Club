@@ -27,37 +27,37 @@ let resumeData = {
     "website":"https://github.com/yanym/Cornell-Club",
     "education":[
       {
-        "UniversityName":"Cornell",
-        "specialization":"Some specialization3",
+        "UniversityName":"写点啥",
+        "specialization":"The night before his ninety-fifth-birthday party, my father fell while turning around in his kitchen. My sister Lisa and her husband, Bob, dropped by hours later to hook up his new TV and discovered him on the floor, disoriented and in pain. He fell again after they righted him, so an ambulance was called. At the hospital, they met up with our sister Gretchen, and with Amy, who’d just flown in from New York to attend the party, which was now cancelled. “It was really weird,” she said when we spoke on the phone the following morning. “Dad thought Lisa was Mom, and when the doctor asked him where he was he answered, ‘Syracuse’—where he went to college. Then he got mad and said, ‘You’re sure asking a lot of questions.’ As if that’s not normal for a doctor. I think he thought this was just some guy he was talking to.”",
         "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "YearOfPassing":"2000",
+        "Achievements":"CMU AI+ is an intellectual hub where researchers, hackers, engineers, and entrepreneurs meet to envision and build the industry of the future driven by Artificial Intelligence (AI). Our focus is on growing and nurturing the AI-focused startup community of CMU (and the Greater Pittsburgh area). We provide a forum for discussing ideas and issues related to applied AI, learning from successes and pitfalls of AI ventures, and identifying the key challenges and opportunities in all verticals of industry that are ready to be tackled with AI."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization4",
+        "UniversityName":"Some写点啥",
+        "specialization":"猪年大吉",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"sidfois"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization1",
+        "CompanyName":"工作1",
+        "specialization":"spec1",
         "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfLeaving":"2019",
+        "Achievements":"Some"
       },
       {
         "CompanyName":"Some Company2",
-        "specialization":"Some specialization2",
+        "specialization":"spec2",
         "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "YearOfLeaving":"8102",
+        "Achievements":"Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"描述",
     "skills":[
       {
         "skillname":"HTML5"

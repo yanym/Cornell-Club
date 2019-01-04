@@ -5,7 +5,7 @@ export default class ContactUs extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="contact">
-          <div className="row section-head">
+          {/* <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
               Join us
@@ -20,6 +20,22 @@ export default class ContactUs extends Component {
                 </h4>
               </div>
             </aside>
+          </div> */}
+          <div className="row">
+            <div className="columns contact-details">
+            <h1>Contact us</h1>
+            <br></br>
+            <p className="address">
+            <br></br>
+            <span>{resumeData.name}</span>
+                <br></br>
+                <span>
+                {resumeData.address}
+              </span>
+              <br></br>
+              <span>{resumeData.website}</span>
+              </p>
+            </div>
           </div>
         </section>
         );

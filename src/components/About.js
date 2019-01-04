@@ -10,13 +10,11 @@ export default class About extends Component {
                <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
             </div>
             <div className="nine columns main-col">
-               <h2>About Club</h2>
+               <h2>About us</h2>
                <p>
-               {
-                 resumeData.aboutme
-               }
+               {resumeData.aboutme}
                </p>
-               <div className="row">
+               {/* <div className="row">
                   <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
@@ -29,7 +27,7 @@ export default class About extends Component {
                     <span>{resumeData.website}</span>
        					   </p>
                   </div>
-               </div>
+               </div> */}
             </div>
          </div>
       </section>

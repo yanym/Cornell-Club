@@ -5,12 +5,12 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['😀 😁 😂 🤣 😃 😄 😅 😆 😉', 'Cornell Club', '66666','23333', '🥺'];
+    const strings  = ['Cornell Creepy Club', '66666','23333', ' 😂🤣😃😄😅😆😉'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
-      typeSpeed: 60,
-      backSpeed: 60,
+      typeSpeed: 50,
+      backSpeed: 50,
       loop: true,
       loopCount: Infinity
     };
@@ -23,8 +23,6 @@ export default class Header extends Component {
     // to prevent memory leaks
     this.typed.destroy();
   }
-
-  
 
   render() {
     let resumeData = this.props.resumeData;
