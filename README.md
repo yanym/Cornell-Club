@@ -5,4 +5,5 @@
 4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
 5. Make required changes in ```src/resumeData.js``` to suit your needs.
 
-# Life is good.
+# Demo
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/Demo.gif)
