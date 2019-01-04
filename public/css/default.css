@@ -646,7 +646,8 @@ input[type="checkbox"] { display: inline; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
 .row .twelve      { width: 100%; }
-
+.row .ninesix     { width: 96%; }
+/* .row twenty       { width: 96%; } */
 /* Offsets */
 .row .offset-1    { margin-left: 8.33333%; }
 .row .offset-2    { margin-left: 16.66667%; }
