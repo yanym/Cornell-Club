@@ -9,6 +9,7 @@
     "react-grid-gallery": "^0.5.3",
     "react-photo-feed": "^1.0.13",
     "react-scripts": "2.1.1",
+    "reactstrap": "^7.0.2",
     "typed.js": "^2.0.9"
   },
   "scripts": {

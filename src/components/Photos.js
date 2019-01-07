@@ -33,7 +33,7 @@ export default class photos extends Component {
         }]
 
         return (
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+            <div style={{background: '#ebeeee', display: 'flex',  justifyContent:'center', alignItems:'center'}}>
                 <div>
                     <Row>
                         <Col xs={8} sm={4}>
