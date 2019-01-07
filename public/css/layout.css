@@ -252,7 +252,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+   padding-bottom: 2px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;

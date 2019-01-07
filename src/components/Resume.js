@@ -4,7 +4,6 @@ export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-
       <section id="resume">
          <div className="row education">
             {/* <div className="three columns header-col">
@@ -18,9 +17,10 @@ export default  class Resume extends Component {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
                     <div key={item.MonthOfPassing} className="row item">
-                       <div className="twelve columns">
+                       <div align='center' className="twelve columns">
                        <h1><span>{item.UniversityName}</span></h1>
                           {/* <p className="info" style={{fontSize:20}}> */}
+                          <br></br>
                           <p className="info">
                             {item.specialization}
                             {/* <span>&bull;</span> 
