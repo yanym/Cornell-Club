@@ -12,7 +12,7 @@ export default  class Resume extends Component {
             
             {/* 移除main-col 右侧padding 10% */}
             {/* <div className="ninesix columns main-col"> */}
-            <div className="ninesix columns">
+            <div className="twelve columns">
               { 
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
