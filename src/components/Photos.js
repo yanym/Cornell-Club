@@ -1,27 +1,79 @@
 import React, { Component } from "react";
-// import PhotoGrid from "react-photo-feed";
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Card, Row, Col} from 'antd';
 
-// import "react-photo-feed/library/style.css";
-
+const { Meta } = Card;
 export default class photos extends Component {
     render() {
         return (
-            <div style={{background: '#ebeeee', display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                <Grid>
-                    <Row className="show-grid">
-                        <Col xs={6} md={4}>
-                           12323123
-                        </Col>
-                        <Col xs={6} md={4}>
-                            3123123123
-                        </Col>
-                        <Col xs={6} md={4}>
-                            312312312
-                        </Col>
-                    </Row>
-                </Grid>
-            </div>
+          <div className="row" style={{ color: '#ebeeee' }}>
+            <div className="twelve columns">
+              <Row>
+                <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{ width: '95%' }}
+                    cover={<img alt="example" src="images/1128.png" />}
+                  >
+                    <Meta
+                      title="cao"
+                      description="111"
+                    />
+                  </Card>
+                </Col>
+                <Col span={8} offset={8}>
+                  <Card
+                    hoverable
+                    style={{ width: '95%' }}
+                    cover={<img alt="example" src="images/128.png" />}
+                  >
+                    <Meta
+                      title="nb"
+                      description="222"
+                    />
+                  </Card>
+                </Col>
+              </Row>
+              <div></div>
+              <Row>
+                <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{ width: '95%' }}
+                    cover={<img alt="example" src="images/1128.png" />}
+                  >
+                    <Meta
+                      title="niubi"
+                      description="333"
+                    />
+                  </Card>
+                </Col>
+                <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{ width: '95%' }}
+                    cover={<img alt="example" src="images/128.png" />}
+                  >
+                    <Meta
+                      title="xiaoniunai"
+                      description="444"
+                    />
+                  </Card>
+                </Col>
+                <Col span={8}>
+                  <Card
+                    hoverable
+                    style={{ width: '95%' }}
+                    cover={<img alt="example" src="images/1128.png" />}
+                  >
+                    <Meta
+                      title="daniunai"
+                      description="555"
+                    />
+                  </Card>
+                </Col>
+              </Row>
+          </div>
+        </div>
         )
     }
 }

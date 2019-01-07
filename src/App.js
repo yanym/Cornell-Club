@@ -8,22 +8,21 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import Photos from './components/Photos'
-import About from './components/About';
+import GG from './components/gallery/gallery'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      
         <Header resumeData={resumeData}/>
-        {/* <About resumeData={resumeData}/> */}
+        <Photos />
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
         <CurPortfolio resumeData={resumeData}/>
-        <Photos />
         <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
+        {/* <GG /> */}
       </div>
     );
   }
