@@ -7,22 +7,29 @@ export default  class Resume extends Component {
 
       <section id="resume">
          <div className="row education">
-            <div className="three columns header-col">
-               <h1 align='center'><span>Mission(ED)</span></h1>
-            </div>
-            <div className="ninesix columns main-col">
-              {
+            {/* <div className="three columns header-col">
+               <h1><span>Mission (ED)</span></h1>
+            </div> */}
+            
+            {/* 移除main-col 右侧padding 10% */}
+            {/* <div className="ninesix columns main-col"> */}
+            <div className="ninesix columns">
+              { 
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
                     <div key={item.MonthOfPassing} className="row item">
                        <div className="twelve columns">
-                          <h3>{item.UniversityName}</h3>
+                       <h1><span>{item.UniversityName}</span></h1>
+                          {/* <p className="info" style={{fontSize:20}}> */}
                           <p className="info">
-                          {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
+                            {item.specialization}
+                            {/* <span>&bull;</span> 
+                            <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em> */}
                           </p>
+                          {/* <p>
+                            下面一行，你可以写一点什么
+                          {item.Achievements}
+                          </p> */}
                        </div>
                     </div>
                   )
