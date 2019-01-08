@@ -82,11 +82,6 @@ let webData = {
         "name":"project4",
         "description":"mobileapp4",
         "imgurl":"images/profilepic4.jpg"
-      },
-      {
-        "name":"project5",
-        "description":"mobileapp5",
-        "imgurl":"images/profilepic4.jpg"
       }
     ],
     "testimonials":[

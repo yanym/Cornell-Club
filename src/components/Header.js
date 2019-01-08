@@ -54,7 +54,6 @@ export default class Header extends Component {
                   />
                 </h1>
               </div>
-
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> 
                 {webData.role} 
                </h3>
@@ -64,21 +63,18 @@ export default class Header extends Component {
                   {
                     webData.socialLinks && webData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                              </li>
-                            )
-                          }
-                    )
+                        <li key={item.name}>
+                          <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                        </li>
+                      )
+                    })
                   }
                </ul>
             </div>
          </div>
-
          <p className="scrolldown">
             <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
          </p>
-
       </header>
       </React.Fragment>
     );

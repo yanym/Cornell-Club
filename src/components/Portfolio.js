@@ -5,33 +5,33 @@ export default class Porfolio extends Component {
     let webData = this.props.webData;
     return (
       <section id="portfolio" style={{ background: '#f7f8ff'}}>
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Current Work</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            webData.portfolio && webData.portfolio.map((item)=>{
-              return(   
-                <div className="columns portfolio-item" key={item.imgurl}>
-                  <div className="item-wrap" style={{ background: 'lightgreen'}}>
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img" alt=''/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>Current Work</h1>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            {
+              webData.portfolio && webData.portfolio.map((item)=>{
+                return(   
+                  <div className="columns portfolio-item" key={item.imgurl}>
+                    <div className="item-wrap" style={{ background: '#d4ffcc'}}>
+                      <a href="#modal-01">
+                        <img src={`${item.imgurl}`} className="item-img" alt=''/>
+                        <div className="overlay">
+                          <div className="portfolio-item-meta">
+                            <h5>{item.name}</h5>
+                            <p>{item.description}</p>
+                          </div>
                         </div>
-                      </div>
-                    </a>
+                      </a>
+                    </div>
                   </div>
-                </div>
-              )
-            })
-          }
+                )
+              })
+            }
+            </div>
           </div>
         </div>
-      </div>
-  </section>
-        );
+      </section>
+    );
   }
 }
