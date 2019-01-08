@@ -4,7 +4,7 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio" style={{ background:'white' }}>
+      <section id="portfolio" style={{ background:'#f6fdf7' }}>
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Past Work</h1>

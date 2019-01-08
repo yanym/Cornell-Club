@@ -2,16 +2,19 @@ import React, { Component } from "react";
 import { Card, Row, Col} from 'antd';
 
 const { Meta } = Card;
+
 export default class photos extends Component {
     render() {
         return (
-          <div className="row" style={{ color: '#ebeeee' }}>
-            <div className="twelve columns">
+        <section id="photos" style={{ background: 'white' }}>
+          <div className="row" >
+            <div className="twelve columns" >
+            <h1>Team</h1>
               <Row>
-                <Col span={8}>
+                <Col span={8} >
                   <Card
                     hoverable
-                    style={{ width: '95%' }}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center' }}
                     cover={<img alt="example" src="images/1128.png" />}
                   >
                     <Meta
@@ -23,7 +26,7 @@ export default class photos extends Component {
                 <Col span={8} offset={8}>
                   <Card
                     hoverable
-                    style={{ width: '95%' }}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     cover={<img alt="example" src="images/128.png" />}
                   >
                     <Meta
@@ -33,12 +36,15 @@ export default class photos extends Component {
                   </Card>
                 </Col>
               </Row>
-              <div></div>
+              <div><br></br></div>
+              <div><br></br></div>
+              <div><br></br></div>
+              <div><br></br></div>
               <Row>
                 <Col span={8}>
                   <Card
                     hoverable
-                    style={{ width: '95%' }}
+                    style={{ width: '50%', marginLeft: 0, marginRight: 'auto', textAlign: 'center'}}
                     cover={<img alt="example" src="images/1128.png" />}
                   >
                     <Meta
@@ -50,7 +56,7 @@ export default class photos extends Component {
                 <Col span={8}>
                   <Card
                     hoverable
-                    style={{ width: '95%' }}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     cover={<img alt="example" src="images/128.png" />}
                   >
                     <Meta
@@ -62,7 +68,7 @@ export default class photos extends Component {
                 <Col span={8}>
                   <Card
                     hoverable
-                    style={{ width: '95%' }}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 0, textAlign: 'center'}}
                     cover={<img alt="example" src="images/1128.png" />}
                   >
                     <Meta
@@ -74,6 +80,7 @@ export default class photos extends Component {
               </Row>
           </div>
         </div>
+        </section>
         )
     }
 }

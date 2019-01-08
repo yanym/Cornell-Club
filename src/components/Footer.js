@@ -4,8 +4,8 @@ export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <footer>
-      <div className="row">
+      <footer style= {{ background: '#f8fcf9' }}>
+      <div  className="row">
         <div className="twelve columns">
           <ul className="social-links">
             {
