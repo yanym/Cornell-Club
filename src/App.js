@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header webData={webData}/>
-        
         <Resume webData={webData}/>
         <Portfolio webData={webData}/>
         <CurPortfolio webData={webData}/>
