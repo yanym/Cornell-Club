@@ -11,10 +11,10 @@ export default class Porfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {
               webData.portfolio && webData.portfolio.map((item)=>{
-                return(   
+                return( 
                   <div className="columns portfolio-item" key={item.imgurl}>
                     <div className="item-wrap" style={{ background: '#d4ffcc'}}>
-                      <a href="#modal-01">
+                      <a href={"https://" + item.url }>
                         <img src={`${item.imgurl}`} className="item-img" alt=''/>
                         <div className="overlay">
                           <div className="portfolio-item-meta">

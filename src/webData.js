@@ -1,5 +1,8 @@
 let webData = {
     "role": "Write Some detail",
+    "name": "Cornell Club",
+    "addr": "Ithaca, NY",
+    "email": "sb@cornell.edu",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -26,34 +29,40 @@ let webData = {
       {
         "name":"project1",
         "description":"mobileapp1",
-        "imgurl":"images/profilepic1.jpg"
+        "imgurl":"images/profilepic1.jpg",
+        "url": "www.google.com"
       },
       {
         "name":"project2",
         "description":"mobileap2p",
-        "imgurl":"images/profilepic2.jpg"
+        "imgurl":"images/profilepic2.jpg",
+        "url": "www.google.com"
       },
       {
         "name":"project3",
         "description":"mobileapp3",  
-        "imgurl":"images/profilepic3.jpg"
+        "imgurl":"images/profilepic3.jpg",
+        "url": "www.google.com"
       },
       {
         "name":"project4",
         "description":"mobileapp4",
-        "imgurl":"images/profilepic4.jpg"
+        "imgurl":"images/profilepic4.jpg",
+        "url": "www.google.com"
       }
     ],
     "cur_portfolio":[
       {
         "name":"project1",
         "description":"mobileapp1",
-        "imgurl":"images/profilepic1.jpg"
+        "imgurl":"images/profilepic1.jpg",
+        "url": "www.google.com"
       },
       {
         "name":"project2",
         "description":"mobileap2p",
-        "imgurl":"images/profilepic2.jpg"
+        "imgurl":"images/profilepic2.jpg",
+        "url": "www.google.com"
       }
     ],
     "testimonials":[

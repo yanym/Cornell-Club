@@ -53,7 +53,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -407,6 +407,14 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
+
+
+
+
+
+
+
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -430,8 +438,8 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
+   /* Important! */
    position: relative;
-
    -webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -445,8 +453,8 @@ ul#nav li.current a { color: #F06000; }
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
-   /* position: absolute; */  
-      /* 暂时被撤销掉了 */
+   position: absolute;  
+   /* 撤销就是下面出来一点 */
    left: 0;
    top: 0;
    width: 100%;
@@ -456,12 +464,12 @@ ul#nav li.current a { color: #F06000; }
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 
-   -webkit-transition: opacity 0.3s ease-in-out;
-	-moz-transition: opacity 0.3s ease-in-out;
-	-o-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+   -webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   background: rgba(255, 255, 245, 0.911) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -490,15 +498,21 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { 
+   padding: 18px;
+   align-content: center;
+}
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 15px/23px 'opensans-bold', sans-serif;
+   color: rgb(10, 43, 18);
+   
 }
 .-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+   align-content: center;
+   
 }
 
 /* on hover */
@@ -578,6 +592,13 @@ ul#nav li.current a { color: #F06000; }
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
+
+
+
+
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* e3. timeline Section
@@ -1134,8 +1155,8 @@ call-to-action .button {
 
 #contact {
    background: '#f7f8ff';
-   padding-top: 96px;
-   padding-bottom: 102px;
+   padding-top: 48px;
+   padding-bottom: 48px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -1160,14 +1181,14 @@ call-to-action .button {
 	font-size: 72px;
    line-height: 72px;
    text-align: left;
-   float: left;
+   float: center;
    color: #f8abee;
 }
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
-   margin-bottom: 6px;
+   font: 20px/28px 'opensans-bold', sans-serif;
+   color: rgb(52, 18, 116);
+   /* margin-bottom: 6px; */
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;

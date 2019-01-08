@@ -7,15 +7,15 @@ export default class ContactUs extends Component {
       <section id="contact">
         <div className="row">
           <div className="columns contact-details">
-            <h1>Contact us</h1>
-            <br></br>
+          <br></br>
+            <h1></h1> 
+            <h4>Contact us</h4>
             <p className="address">
-              <br></br>
               <span>{webData.name}</span>
               <br></br>
-              <span>{webData.address}</span>
+              <span>Addr: {webData.addr}</span>
               <br></br>
-              <span>{webData.website}</span>
+              <span>Email: {webData.email}</span>
             </p>
           </div>
         </div>

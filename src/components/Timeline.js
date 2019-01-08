@@ -5,9 +5,9 @@ export default class timeline extends Component {
 	render() {
 		return (
 			<section id="timeline">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>Timeline</h1>
+				<div className="row">
+					<div className="twelve columns collapsed">
+						<h1>Timeline</h1>
 						<Timeline mode="alternate">
 							<Timeline.Item>
 								Create a services site 2019-01-01
