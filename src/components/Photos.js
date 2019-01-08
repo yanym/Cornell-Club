@@ -17,7 +17,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.png" />}
+                    cover={<img alt="example" src="images/photo2.png" />}
                   >
                   <Meta
                     title="Cornell"
@@ -30,7 +30,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.png" />}
+                    cover={<img alt="example" src="images/photo2.png" />}
                   >
                   <Meta
                     title="danainiu"
@@ -49,7 +49,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.png" />}
+                    cover={<img alt="example" src="images/photo2.png" />}
                   >
                   <Meta
                     title="laomuzhu"
@@ -62,7 +62,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.png" />}
+                    cover={<img alt="example" src="images/photo2.png" />}
                   >
                   <Meta
                     title="xiaoniunai"
@@ -75,7 +75,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.png" />}
+                    cover={<img alt="example" src="images/photo2.png" />}
                   >
                   <Meta
                     title="daniunai"

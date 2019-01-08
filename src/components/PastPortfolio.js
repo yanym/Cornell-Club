@@ -10,7 +10,7 @@ export default class Porfolio extends Component {
             <h1>Past Work</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {
-              webData.portfolio && webData.cur_portfolio.map((item)=>{
+              webData.portfolio && webData.PastPortfolio.map((item)=>{
                 return(   
                   <div className="columns portfolio-item" key={item.imgurl}>
                     <div className="item-wrap" style={{ background: '#c2e9fe' }}>
