@@ -42,7 +42,6 @@ export default class photos extends Component {
               <div><br></br></div>
               <div><br></br></div>
               <div><br></br></div>
-              <div><br></br></div>
               <Row>
                 <Col xs={24} md={12} lg={8}>
                   <Card

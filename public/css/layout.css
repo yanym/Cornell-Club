@@ -421,8 +421,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 40px;
+   padding-bottom: 25px;
 }
 #portfolio h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
@@ -606,8 +606,8 @@ ul#nav li.current a { color: #F06000; }
 
 #timeline {
    background: #f7f8ff;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 50px;
+   padding-bottom: 25px;
 }
 
 #timeline h1 {
@@ -777,8 +777,8 @@ ul#nav li.current a { color: #F06000; }
 
 #photos {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 50px;
+   padding-bottom: 25px;
 }
 #photos h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
@@ -1016,7 +1016,7 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
+   padding-top: 66px;
    padding-bottom: 66px;
 }
 #testimonials h1 {
@@ -1155,8 +1155,8 @@ call-to-action .button {
 
 #contact {
    background: '#f7f8ff';
-   padding-top: 48px;
-   padding-bottom: 48px;
+   padding-top: 24px;
+   padding-bottom: 24px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }

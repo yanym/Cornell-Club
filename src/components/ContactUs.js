@@ -4,8 +4,8 @@ export default class ContactUs extends Component {
   render() {
     let webData = this.props.webData;
     return (
-      <section id="contact">
-        <div className="row">
+      <section id="contact" style={{ background: '#f7f8ff'}}>
+        <div className="row" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
           <div className="columns contact-details">
           <br></br>
             <h1></h1> 
