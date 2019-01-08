@@ -6,7 +6,7 @@ import CurPortfolio from './components/cur_Portfolio';
 import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
-import resumeData from './resumeData';
+import webData from './webData';
 import Photos from './components/Photos'
 import GG from './components/gallery/gallery'
 
@@ -14,15 +14,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header resumeData={resumeData}/>
+        <Header webData={webData}/>
         
-        <Resume resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <CurPortfolio resumeData={resumeData}/>
+        <Resume webData={webData}/>
+        <Portfolio webData={webData}/>
+        <CurPortfolio webData={webData}/>
         <Photos />
-        <Testimonials resumeData={resumeData}/>
-        <ContactUs resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
+        <Testimonials webData={webData}/>
+        <ContactUs webData={webData}/>
+        <Footer webData={webData}/>
         {/* <GG /> */}
       </div>
     );

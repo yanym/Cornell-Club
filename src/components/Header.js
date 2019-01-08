@@ -25,7 +25,7 @@ export default class Header extends Component {
   }
 
   render() {
-    let resumeData = this.props.resumeData;
+    let webData = this.props.webData;
     return (
       <React.Fragment> 
       <header id="home">
@@ -45,7 +45,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               {/* <h1 className="responsive-headline"> {resumeData.name}</h1> */}
+               {/* <h1 className="responsive-headline"> {webData.name}</h1> */}
                <div className="wrap">
                 <h1 className="type-wrap">
                   <span
@@ -56,13 +56,13 @@ export default class Header extends Component {
               </div>
 
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> 
-                {resumeData.role} 
+                {webData.role} 
                </h3>
-               {resumeData.roleDescription}
+               {webData.roleDescription}
                <hr/>
                <ul className="social">
                   {
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                    webData.socialLinks && webData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
                                 <a href={item.url} target="_blank"><i className={item.className}></i></a>

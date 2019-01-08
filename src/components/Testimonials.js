@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Testimonials extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let webData = this.props.webData;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -14,7 +14,7 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    webData.testimonials && webData.testimonials.map((item)=>{
                       return(
                         <li key={item.description}>
                           <blockquote>

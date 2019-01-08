@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class ContactUs extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let webData = this.props.webData;
     return (
       <section id="contact">
           {/* <div className="row section-head">
@@ -16,7 +16,7 @@ export default class ContactUs extends Component {
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4>Linked in :
-                  {resumeData.linkedinId}
+                  {webData.linkedinId}
                 </h4>
               </div>
             </aside>
@@ -27,13 +27,13 @@ export default class ContactUs extends Component {
             <br></br>
             <p className="address">
             <br></br>
-            <span>{resumeData.name}</span>
+            <span>{webData.name}</span>
                 <br></br>
                 <span>
-                {resumeData.address}
+                {webData.address}
               </span>
               <br></br>
-              <span>{resumeData.website}</span>
+              <span>{webData.website}</span>
               </p>
             </div>
           </div>

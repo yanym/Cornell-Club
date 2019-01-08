@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let webData = this.props.webData;
     return (
       <section id="portfolio" style={{ background:'#f6fdf7' }}>
       <div className="row">
@@ -10,7 +10,7 @@ export default class Porfolio extends Component {
           <h1>Past Work</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            webData.portfolio && webData.portfolio.map((item)=>{
               return(   
                 <div className="columns portfolio-item" key={item.imgurl}>
                   <div className="item-wrap" style={{ background: 'lightblue'}}>

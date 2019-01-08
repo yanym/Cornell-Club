@@ -1,4 +1,4 @@
-let resumeData = {
+let webData = {
     "imagebaseurl":"https://github.com/yanym/Cornell-Club",
     "name": "Quantitative Research Club",
     "role": "Write Some detail in h3 tag",
@@ -82,6 +82,11 @@ let resumeData = {
         "name":"project4",
         "description":"mobileapp4",
         "imgurl":"images/profilepic4.jpg"
+      },
+      {
+        "name":"project5",
+        "description":"mobileapp5",
+        "imgurl":"images/profilepic4.jpg"
       }
     ],
     "testimonials":[
@@ -96,4 +101,4 @@ let resumeData = {
     ]
   }
   
-  export default resumeData
+  export default webData

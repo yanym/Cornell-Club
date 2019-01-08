@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class About extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let webData = this.props.webData;
     return (
       <section id="about">
          <div className="row">
@@ -12,7 +12,7 @@ export default class About extends Component {
             <div className="seven columns main-col">
                <h2>Who we are</h2>
                <p>
-               {resumeData.aboutme}
+               {webData.aboutme}
                </p>
             </div>
          </div>
