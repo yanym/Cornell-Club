@@ -1,8 +1,15 @@
 # How to use?
-1. Clone git.
+1. Clone.
 2. Run  ``` npm install ```.
 3. Run ```npm start``` . Local server runs on Port 3000
-4. Make required changes in ```src/webData.js``` to suit your needs.
+4. ```src/webData.js``` provides some API which can be loaded into pages. Not all data are included in it. TBD someday MAYBE.
 
 # Demo
-![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo.gif)
+## PC
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/PC.gif)  
+
+## Iphone X
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IphoneX.gif)
+
+## IPad Pro
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)
