@@ -49,18 +49,6 @@ let webData = {
         "Achievements":"Achievements"
       }
     ],
-    "skillsDescription":"描述",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
     "portfolio":[
       {
         "name":"project1",
@@ -81,6 +69,18 @@ let webData = {
         "name":"project4",
         "description":"mobileapp4",
         "imgurl":"images/profilepic4.jpg"
+      }
+    ],
+    "cur_portfolio":[
+      {
+        "name":"project1",
+        "description":"mobileapp1",
+        "imgurl":"images/profilepic1.jpg"
+      },
+      {
+        "name":"project2",
+        "description":"mobileap2p",
+        "imgurl":"images/profilepic2.jpg"
       }
     ],
     "testimonials":[

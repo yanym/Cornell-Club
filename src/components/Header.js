@@ -34,10 +34,10 @@ export default class Header extends Component {
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               {/* <li><a className="smoothscroll" href="#about">About</a></li> */}
              <li><a className="smoothscroll" href="#resume">Mission</a></li>
                <li><a className="smoothscroll" href="#portfolio">Work</a></li>
                <li><a className="smoothscroll" href="#photos">Team</a></li>
+               <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonial</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
@@ -45,7 +45,6 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               {/* <h1 className="responsive-headline"> {webData.name}</h1> */}
                <div className="wrap">
                 <h1 className="type-wrap">
                   <span

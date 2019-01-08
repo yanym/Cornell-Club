@@ -13,17 +13,10 @@ export default  class Resume extends Component {
                     <div key={item.MonthOfPassing} className="row item">
                        <div align='center' className="twelve columns">
                        <h1><span>{item.UniversityName}</span></h1>
-                          {/* <p className="info" style={{fontSize:20}}> */}
                           <br></br>
                           <p className="info">
                             {item.specialization}
-                            {/* <span>&bull;</span> 
-                            <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em> */}
                           </p>
-                          {/* <p>
-                            下面一行，你可以写一点什么
-                          {item.Achievements}
-                          </p> */}
                        </div>
                     </div>
                   )

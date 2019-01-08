@@ -8,7 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import webData from './webData';
 import Photos from './components/Photos'
-import GG from './components/gallery/gallery'
+import Timeline from './components/Timeline'
 
 class App extends Component {
   render() {
@@ -19,10 +19,10 @@ class App extends Component {
         <Portfolio webData={webData}/>
         <CurPortfolio webData={webData}/>
         <Photos />
+        <Timeline />
         <Testimonials webData={webData}/>
         <ContactUs webData={webData}/>
         <Footer webData={webData}/>
-        {/* <GG /> */}
       </div>
     );
   }
