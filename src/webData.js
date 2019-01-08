@@ -6,7 +6,7 @@ let webData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://linkedin.com/in/yiming-yan-a6640111a/",
+          "url":"https://www.linkedin.com/in/y-yan",
           "className":"fa fa-linkedin"
         },
         {
