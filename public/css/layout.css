@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. Mission Section
    e. Portfolio Section
    e2. Photos Section
    f. Call To Action Section
@@ -233,51 +233,51 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Mission Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#mission {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#mission a, #mission a:visited  { color: #11ABB0; }
+#mission a:hover, #mission a:focus { color: #313131; }
 
-#resume h1 {
+#mission h1 {
    font: 30px/35px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#mission h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 2px;
 }
-#resume h3 {
+#mission h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
-
+#mission .header-col { padding-top: 9px; }
+#mission .main-col { padding-right: 10%; }
+/* 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
-}
-#resume .info {
+} */
+#mission .info {
    font: 24px/38px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#mission .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#mission .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }

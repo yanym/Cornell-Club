@@ -34,7 +34,7 @@ export default class Header extends Component {
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-             <li><a className="smoothscroll" href="#resume">Mission</a></li>
+             <li><a className="smoothscroll" href="#mission">Mission</a></li>
                <li><a className="smoothscroll" href="#portfolio">Work</a></li>
                <li><a className="smoothscroll" href="#photos">Team</a></li>
                <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
@@ -72,7 +72,7 @@ export default class Header extends Component {
             </div>
          </div>
          <p className="scrolldown">
-            <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#mission"><i className="icon-down-circle"></i></a>
          </p>
       </header>
       </React.Fragment>

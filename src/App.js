@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Resume from './components/Resume';
+import Mission from './components/Mission';
 import Portfolio from './components/Portfolio';
 import CurPortfolio from './components/cur_Portfolio';
 import Testimonials from  './components/Testimonials';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header webData={webData}/>
-        <Resume webData={webData}/>
+        <Mission webData={webData}/>
         <Portfolio webData={webData}/>
         <CurPortfolio webData={webData}/>
         <Photos />

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 
-export default  class Resume extends Component {
+export default  class Mission extends Component {
   render() {
     let webData = this.props.webData;
     return (
-      <section id="resume">
-         <div className="row education">
+      <section id="mission">
+         <div className="row">
             <div className="twelve columns">
               { 
-                webData.education && webData.education.map((item)=>{
+                webData.mission && webData.mission.map((item)=>{
                   return(
-                    <div key={item.MonthOfPassing} className="row item">
+                    <div key={item.specialization} className="row item">
                        <div align='center' className="twelve columns">
-                       <h1><span>{item.UniversityName}</span></h1>
+                       <h1><span>Mission</span></h1>
                           <br></br>
                           <p className="info">
                             {item.specialization}
