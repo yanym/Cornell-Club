@@ -13,8 +13,9 @@ You may serve it with a static server:**
 ```  npm install -g serve ```  
 ```  serve -s build ```  
 You can see the web app generated then.
-3. If everything goes right, you can deploy it on a server with Nginx or Apache.
-4. 
+3. If everything goes right, you can deploy it on a server with Nginx or Apache.  
+Note: One of the major benefits of React (and Create React App) is that you don't need the overhead of running a Node server (or proxying to it with Nginx); you can serve the static files directly.
+
 # TechStack
 - [The best front-end framework ever](https://reactjs.org/)
 - [Antd UI](https://ant.design/)
