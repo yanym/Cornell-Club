@@ -7,8 +7,9 @@ export default class ContactUs extends Component {
       <section id="contact" style={{ background: '#f7f8ff'}}>
         <div className="row" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
           <div className="columns contact-details">
-          <br></br>
-            <h1></h1> 
+            <br></br>
+            {/* h1 has before attr, which is a cute pink envelope. Remove comment below to enable it. */}
+            {/* <h1></h1> */}
             <h4>Contact us</h4>
             <p className="address">
               <span>{webData.name}</span>
@@ -17,6 +18,8 @@ export default class ContactUs extends Component {
               <br></br>
               <span>Email: {webData.email}</span>
             </p>
+            <br></br>
+            <img src='images/2880px-Cornell_University_logo.svg.png' alt='' style={{ height:111 }}></img>
           </div>
         </div>
       </section>

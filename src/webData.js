@@ -1,8 +1,8 @@
 let webData = {
     "role": "Write Some detail",
     "name": "Cornell Club",
-    "addr": "Ithaca, NY",
-    "email": "sb@cornell.edu",
+    "addr": "Duffield Hall 132, Cornell University",
+    "email": "milk@cornell.edu",
     "socialLinks":[
         {
           "name":"linkedin",
