@@ -1,3 +1,9 @@
+# TechStack
+- [The best front-end framework ever](https://reactjs.org/)
+- [Antd UI](https://ant.design/)
+- In-deepth customized CSS
+
+
 # How to use?
 ## Dev Env
 1. Clone.
@@ -33,18 +39,19 @@ http {
 		index index.html;
 
 		# location ~ \.css {
-		# 		add_header Content-Type text/css;
+		# 	add_header Content-Type text/css;
 		# }
 		
 		location ~.*\.css {
-				add_header Content-Type text/css;
+			add_header Content-Type text/css;
 		}
+
 		location ~.*\.(js|css|html|png|jpg)$ {
-				add_header Cache-Control no-cache;
+			add_header Cache-Control no-cache;
 		}
 
 		location @fallback {
-				 rewrite .* /index.html break;
+			 rewrite .* /index.html break;
 		}
 	}
 
@@ -54,31 +61,26 @@ http {
 		root /root/React-build;
 		index index.html;
 		location ~.*\.css {
-				add_header Content-Type text/css;
+			add_header Content-Type text/css;
 		 }
 
 		location ~.*\.(js|css|html|png|jpg)$ {
-				add_header Cache-Control no-cache;
+			add_header Cache-Control no-cache;
 		}
 
 		location @fallback {
-				 rewrite .* /index.html break;
+			 rewrite .* /index.html break;
 		}
 	}
 }
 ```
-5. Run this .conf then you can visit.
-```  nginx -c /etc/nginx/vhost/c.conf  ```
+5. Run this .conf then you can visit.  
+```  nginx -c /etc/nginx/vhost/c.conf  ```  
 If you want to stop it, first check the parent PID.  
-``` ps aux|grep nginx  ```
-Then stop it.
-``` kill -QUIT [PPID]  ```
+``` ps aux|grep nginx  ```  
+Then stop it.  
+``` kill -QUIT [PPID]  ```  
 
-
-# TechStack
-- [The best front-end framework ever](https://reactjs.org/)
-- [Antd UI](https://ant.design/)
-- In-deepth customized CSS
 
 ## Compress your images
 Large images will reduce loading speed. [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
