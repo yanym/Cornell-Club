@@ -33,6 +33,30 @@ events {
 }
 
 http {
+	gzip on;
+	
+	# No gzip IE6
+	gzip_disable "msie6";
+	
+	# Set up if Nginx is used for reverse proxy
+	# gzip_proxied any;
+	
+	# from 1-9. Bigger, Better. But use CPU
+	gzip_comp_level 5;
+	
+	# Minimum file size which will be compressed.
+	gzip_min_length 1k;
+	
+	# Set up the system to get a few units of cache for storing GZip's compressed result data stream. 16 8k represents 16 times the application memory in 8k units with the original data size installed in 8k units.
+	gzip_buffers 16 8k;
+	
+	# Identify http version 
+	gzip_http_version 1.1;
+	
+	# Set which kinds will be compressed.
+	gzip_types text/plain text/css application/json application/x-javascript text/javascript text/xml application/xml application/xml+rss image/jpeg image/gif image/png;
+
+
 	include /etc/nginx/mime.types; # Important
 
 	server {
@@ -40,36 +64,25 @@ http {
 		server_name localhost;
 		root /root/React-build;
 		index index.html;
-
-		# location ~ \.css {
-		# 	add_header Content-Type text/css;
-		# }
 		
 		location ~.*\.css {
 			add_header Content-Type text/css;
 		}
-
-		location ~.*\.(js|css|html|png|jpg)$ {
-			add_header Cache-Control no-cache;
+		
+		location ~* ^.+\.(ico|gif|jpg|jpeg|png)$ { 
+			access_log off; 
+			expires 7d;
 		}
 
-		location @fallback {
-			 rewrite .* /index.html break;
+		location ~* ^.+\.(css|js|txt|xml)$ {
+			access_log off;
+			expires 24h;
 		}
-	}
-
-	server {
-		listen 443;
-		server_name localhost;
-		root /root/React-build;
-		index index.html;
-		location ~.*\.css {
-			add_header Content-Type text/css;
-		 }
-
-		location ~.*\.(js|css|html|png|jpg)$ {
-			add_header Cache-Control no-cache;
-		}
+		
+		# Open no-cache mode if you encounter some problem, which will reduce loading speed.
+		# location ~.*\.(js|css|html|png|jpg)$ {
+		# 	add_header Cache-Control no-cache;
+		# }
 
 		location @fallback {
 			 rewrite .* /index.html break;
