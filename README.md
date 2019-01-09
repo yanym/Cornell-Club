@@ -5,7 +5,6 @@
 3. Run ```npm start``` . Local server runs on Port 3000
 4. ```src/webData.js``` provides some API which can be loaded into pages. Not all data are included in it. TBD someday MAYBE.
 
-<<<<<<< HEAD
 ## Product Env
 1. Run ``` npm run build ```.
 2. You can see some in the console.  
@@ -16,12 +15,10 @@ You may serve it with a static server:**
 You can see the web app generated then.
 3. If everything goes right, you can deploy it on a server with Nginx or Apache.
 4. 
-=======
 # TechStack
 - [The best front-end framework ever](https://reactjs.org/)
 - [Antd UI](https://ant.design/)
 - In-deepth customized CSS
->>>>>>> b073827b5f1f68ae0314aca230e7339a38055b87
 
 # Demo
 ## PC
