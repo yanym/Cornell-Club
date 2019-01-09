@@ -14,12 +14,74 @@ You may serve it with a static server:***
 ```  serve -s build ```  
 You can see the web app generated then.
 3. If everything goes right, you can deploy it on a server with Nginx or Apache.  
-Note: One of the major benefits of React (and Create React App) is that you don't need the overhead of running a Node server (or proxying to it with Nginx); you can serve the static files directly.
+Before step 4, make sure that you have some knowledge of Nginx.  
+4. Take Nginx as an example. Make a .conf file.
+```  
+user root;
+
+events {
+	worker_connections 1024; # Default setting
+}
+
+http {
+	include /etc/nginx/mime.types; # Important
+
+	server {
+		listen 80;
+		server_name localhost;
+		root /root/React-build;
+		index index.html;
+
+		# location ~ \.css {
+		# 		add_header Content-Type text/css;
+		# }
+		
+		location ~.*\.css {
+				add_header Content-Type text/css;
+		}
+		location ~.*\.(js|css|html|png|jpg)$ {
+				add_header Cache-Control no-cache;
+		}
+
+		location @fallback {
+				 rewrite .* /index.html break;
+		}
+	}
+
+	server {
+		listen 443;
+		server_name localhost;
+		root /root/React-build;
+		index index.html;
+		location ~.*\.css {
+				add_header Content-Type text/css;
+		 }
+
+		location ~.*\.(js|css|html|png|jpg)$ {
+				add_header Cache-Control no-cache;
+		}
+
+		location @fallback {
+				 rewrite .* /index.html break;
+		}
+	}
+}
+```
+5. Run this .conf then you can visit.
+```  nginx -c /etc/nginx/vhost/c.conf  ```
+If you want to stop it, first check the parent PID.  
+``` ps aux|grep nginx  ```
+Then stop it.
+``` kill -QUIT [PPID]  ```
+
 
 # TechStack
 - [The best front-end framework ever](https://reactjs.org/)
 - [Antd UI](https://ant.design/)
 - In-deepth customized CSS
+
+## Compress your images
+Large images will reduce loading speed. [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
 
 # Demo
 ## PC
