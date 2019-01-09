@@ -8,8 +8,8 @@
 ## Product Env
 1. Run ``` npm run build ```.
 2. You can see some in the console.  
-** The build folder is ready to be deployed.
-You may serve it with a static server:**
+***The build folder is ready to be deployed.
+You may serve it with a static server:***  
 ```  npm install -g serve ```  
 ```  serve -s build ```  
 You can see the web app generated then.
