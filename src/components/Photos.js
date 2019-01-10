@@ -61,7 +61,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
+                    cover={<img alt="example" src="images/photo3.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px'}}
                     title="xiaoniunai"
