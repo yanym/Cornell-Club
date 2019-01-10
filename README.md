@@ -23,7 +23,8 @@ serve -s build
 ```  
 You can see the web app generated then.  
 3. If everything goes right, you can deploy it on a server with Nginx or Apache.  
-Before step 4, make sure that you have some knowledge of Nginx.  
+
+**Before step 4, make sure that you have some knowledge of Nginx.**  
 4. Take Nginx as an example. Create a configuration file. Here gives a example configuration file. You can configure more function such as load balance for the web app.  
 ```  
 user root;
