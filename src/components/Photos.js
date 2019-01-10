@@ -85,6 +85,7 @@ export default class photos extends Component {
               </Row>
             </div>
           </div>
+          <hr/>
         </section>
       )
   }
