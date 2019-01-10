@@ -27,27 +27,27 @@ let webData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "name":"Google",
         "description":"The night before his ninety-fifth-birthday party, my father fell while turning around. ",
-        "imgurl":"images/profilepic1.jpg",
+        "imgurl":"images/Google.jpg",
         "url": "www.google.com"
       },
       {
-        "name":"project2",
+        "name":"Facebook",
         "description":"The night good a pretty fxk his ninety-fifth-birthday party, my father fell while turning around. ",
-        "imgurl":"images/profilepic2.jpg",
+        "imgurl":"images/Facebook.jpg",
         "url": "www.google.com/search?source=hp&ei=IOY0XKOaE5G6tQWrg45Y&q=google&btnK=Google+Search&oq=google&gs_l=psy-ab.3..35i39l2j0i131j0l2j0i131j0l3j0i131.348.2659..8164...0.0..2.1051.5333.2-1j2j1j2j2j1....3..0....1..gws-wiz.....6.Wu_VOGN16UM"
       },
       {
-        "name":"project3",
-        "description":"mobileapp3",  
-        "imgurl":"images/profilepic3.jpg",
+        "name":"Chrome",
+        "description":"web",  
+        "imgurl":"images/Chrome.jpg",
         "url": "www.google.com/search?ei=K-Y0XKeuIpLcswWO5piYBA&q=cornell&oq=cornell&gs_l=psy-ab.3..35i39l2j0j0i131j0l6.11648.12286..12921...0.0..0.154.1013.0j7....2..0....1..gws-wiz.......0i71j0i67j0i131i67.H0nh7uTsiGA"
       },
       {
-        "name":"project4",
-        "description":"mobileapp4",
-        "imgurl":"images/profilepic4.jpg",
+        "name":"Ins",
+        "description":"Ins!",
+        "imgurl":"images/Ins.jpg",
         "url": "www.thestreet.com/politics/donald-trump-idiot-google-images-why-14808650"
       }
     ],
