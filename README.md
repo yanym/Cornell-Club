@@ -98,13 +98,14 @@ Then stop it.
 ``` kill -QUIT [PPID]  ```  
 
 
-## Comment all magnific-popup.js
-If you want to use popup, undo all comment and use modal href in Portfolio.
-
-
-## Compress your images
+# Compress your images
 Large images will reduce loading speed.  
 [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
+
+
+# ***Note: The project remove _openClick from magnific-popup.js***
+*If you want to use popup when you click the portfolio project, please undo the comment of _openClick function and use href='modal-xx' (Eg. href='modal-01') href in Portfolio and PastPortfolio. Also, the magnific-popup.js is not compressed, which means affects a little bit loading performance.*  
+
 
 # Demo
 ## PC
