@@ -98,6 +98,10 @@ Then stop it.
 ``` kill -QUIT [PPID]  ```  
 
 
+## Comment all magnific-popup.js
+If you want to use popup, undo all comment and use modal href in Portfolio.
+
+
 ## Compress your images
 Large images will reduce loading speed.  
 [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
