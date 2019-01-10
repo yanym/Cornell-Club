@@ -16,7 +16,7 @@ export default class Porfolio extends Component {
                     <div className="item-wrap" style={{ background: '#c2e9fe' }}>
                       <a href={"https://" + item.url }>
                       {/* <a href="#modal-01"> */}
-                        <img src={`${item.imgurl}`} className="item-img" alt='' style={{ width: 235, height: 135 }} />
+                        <img src={`${item.imgurl}`} className="item-img" alt=''/>
                         <div className="overlay" >
                           <div className="portfolio-item-meta" >
                             <h5>{item.name}</h5>
