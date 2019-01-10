@@ -26,6 +26,11 @@ export default class Footer extends Component {
             <i className="icon-up-open"/>
           </a>
         </div>
+        <div>
+        <a href='https://www.linkedin.com/in/y-yan'>&copy;</a>2019 Cornell Quant Club&nbsp;|&nbsp; All right reserved.
+         <br></br>
+         Cornell University, Ithaca, NY
+        </div>
       </div>
     </footer>
     );

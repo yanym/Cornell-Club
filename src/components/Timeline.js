@@ -17,7 +17,7 @@ export default class timeline extends Component {
 								Solve initial network problems 2018-09-01
 							</Timeline.Item >
 
-							<Timeline.Item style={{ fontSize: '18px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}>
+							<Timeline.Item style={{ fontSize: '18px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
 								Buy a cow. 
 							</Timeline.Item>
 
@@ -29,7 +29,7 @@ export default class timeline extends Component {
 								Create a services site 2016-09-01
 							</Timeline.Item>
 
-							<Timeline.Item style={{ fontSize: '18px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}>
+							<Timeline.Item style={{ fontSize: '18px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
 								Tech 2015-09-01
 							</Timeline.Item>
 						</Timeline>

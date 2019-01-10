@@ -1,7 +1,7 @@
 let webData = {
     "role": "Glug, glug, woohoo!",
-    "name": "Cornell Club",
-    "addr": "Duffield Hall 132, Cornell University",
+    "name": "Cornell Quant Club ",
+    "addr": "133 Duffield Hall, Cornell University",
     "email": "milk@cornell.edu",
     "socialLinks":[
         {
@@ -67,19 +67,15 @@ let webData = {
     ],
     "testimonials":[
       {
-        "description":"I am Creepy Hang",
-        "name":"Dong"
+        "description":"God's Plan",
+        "name":"Drake"
       },
       {
-        "description":"I am Creepy lyd",
-        "name":"Hang"
-      },
-      {
-        "description":"This is the best react.",
+        "description":"This is the best Web.",
         "name":"Yiming"
       },
       {
-        "description":"I think so.",
+        "description":"Exactly",
         "name":"Yan"
       }
     ]
