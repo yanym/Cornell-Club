@@ -1,5 +1,5 @@
 let webData = {
-    "role": "Write Some detail",
+    "role": "Wait for launching",
     "name": "Cornell Club",
     "addr": "Duffield Hall 132, Cornell University",
     "email": "milk@cornell.edu",
