@@ -7,24 +7,24 @@
 
 # How to use?
 ## Dev Env
-1. git clone.
-2. Run  ``` npm install ```.
-3. Run ```npm start``` . Local server runs on Port 3000
-4. ```src/webData.js``` provides some API which can be loaded into pages. Not all data are included in it. TBD someday MAYBE.
+1. git clone.  
+2. Run  ``` npm install ```.  
+3. Run ```npm start``` . Local server runs on Port 3000  
+4. ```src/webData.js``` provides some API which can be loaded into pages. Not all data are included in it. TBD someday MAYBE.  
 
-## Product Env
-1. Run ``` npm run build ```.
-2. You can see some in the console.  
-***The build folder is ready to be deployed.
-You may serve it with a static server:***  
+## Product Env  
+1. Run ``` npm run build ```.  
+2. You can see some in the console.    
+***The build folder is ready to be deployed.  
+You may serve it with a static server:***    
 ```  
 npm install -g serve 
 serve -s build 
 ```  
-You can see the web app generated then.
+You can see the web app generated then.  
 3. If everything goes right, you can deploy it on a server with Nginx or Apache.  
 Before step 4, make sure that you have some knowledge of Nginx.  
-4. Take Nginx as an example. Make a .conf file.
+4. Take Nginx as an example. Create a configuration file. Here gives a example configuration file. You can configure more function such as load balance for the web app.  
 ```  
 user root;
 
