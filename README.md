@@ -104,7 +104,7 @@ Large images will reduce loading speed.
 [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
 
 
-# ***Note: The project remove _openClick from magnific-popup.js***
+## ***Note: The project remove _openClick from magnific-popup.js***
 *If you want to use popup when you click the portfolio project, please undo the comment of _openClick function and use href='modal-xx' (Eg. href='modal-01') href in Portfolio and PastPortfolio. Also, the magnific-popup.js is not compressed, which means affects a little bit loading performance.*  
 
 
@@ -119,4 +119,8 @@ Large images will reduce loading speed.
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/Ipad.gif)
 
 ## IPad Pro
-![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)  
+
+
+## Thanks [CMU AI+](http://cmu.aiplus.club/) for layout reference.
+
