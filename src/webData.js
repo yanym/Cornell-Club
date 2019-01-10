@@ -1,5 +1,5 @@
 let webData = {
-    "role": "Wait for launching",
+    "role": "Glug, glug, woohoo!",
     "name": "Cornell Club",
     "addr": "Duffield Hall 132, Cornell University",
     "email": "milk@cornell.edu",
@@ -15,14 +15,14 @@ let webData = {
           "className":"fa fa-github"
         },
         {
-          "name":"twitter",
+          "name":"ins",
           "url":"https://www.instagram.com/vency012/",
           "className":"fa fa-instagram"
         }
       ],
     "mission":[
       {
-        "specialization":"The night before his ninety-fifth-birthday party, my father fell while turning around in his kitchen. My sister Lisa and her husband, Bob, dropped by hours later to hook up his new TV and discovered him on the floor, disoriented and in pain. He fell again after they righted him, so an ambulance was called. At the hospital, they met up with our sister Gretchen, and with Amy, who’d just flown in from New York to attend the party, which was now cancelled. “It was really weird,” she said when we spoke on the phone the following morning. “Dad thought Lisa was Mom, and when the doctor asked him where he was he answered, ‘Syracuse’—where he went to college. Then he got mad and said, ‘You’re sure asking a lot of questions.’ As if that’s not normal for a doctor. I think he thought this was just some guy he was talking to.”"
+        "specialization":"“Does this mean you’re going to make l to me tonight, Christian?” Holy s. Did I just say that? His mouth drops open slightly, but he recovers quickly. “No, Anastasia it doesn’t. Firstly, I don’t make l. I f… hard. Secondly, there’s a lot more paperwork to do, and thirdly, you don’t yet know what you’re in for. You could still run for the hills. Come, I want to show you my playroom.” My mouth drops open. F hard! Holy s, that sounds so… hot. But why are we looking at a playroom? I am mystified. “You want to play on your Xbox?” I ask. He laughs, loudly. “No, Anastasia, no Xbox, no Playstation. Come.”… Producing a key from his pocket, he unlocks yet another door and takes a deep breath. “You can leave anytime. The helicopter is on stand-by to take you whenever you want to go, you can stay the night and go home in the morning. It’s fine whatever you decide.” “Just open the damn door, Christian.” He opens the door and stands back to let me in. I gaze at him once more. I so want to know what’s in here. Taking a deep breath I walk in. And it feels like I’ve time-traveled back to the sixteenth century and the Spanish Inquisition.”"
       },
     ],
     "portfolio":[

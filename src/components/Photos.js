@@ -13,13 +13,13 @@ export default class photos extends Component {
               <Row>
                 <Col sm={0} lg={4}></Col>
                 <Col xs={24} md={12} lg={8}>
-                  <Card
+                  <Card 
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px'}}
                     title="Cornell"
                     description="Creepy phd"
                   />
@@ -32,7 +32,7 @@ export default class photos extends Component {
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px' }}
                     title="danainiu"
                     description="222"
                   />
@@ -50,7 +50,7 @@ export default class photos extends Component {
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px'}}
                     title="laomuzhu"
                     description="333"
                   />
@@ -63,7 +63,7 @@ export default class photos extends Component {
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px'}}
                     title="xiaoniunai"
                     description="444"
                   />
@@ -76,7 +76,7 @@ export default class photos extends Component {
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px'}}
                     title="daniunai"
                     description="555"
                   />

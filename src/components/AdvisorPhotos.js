@@ -11,28 +11,28 @@ export default class photos extends Component {
             <div className="twelve columns" >
             <h1>Advisor</h1>
               <Row>
-                {/* <Col sm={0} lg={4}></Col> */}
-                <Col xs={24} md={12} lg={12}>
+                <Col sm={0} lg={4}></Col>
+                <Col xs={24} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px' }}
                     title="Cornell"
                     description="Creepy phd"
                   />
                   </Card>
                 </Col>
-                <Col xs={24} md={12} lg={12}>
+                <Col xs={24} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '60%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.png" />}
                   >
-                  <Meta
+                  <Meta style={{ fontSize: '16px' }}
                     title="danainiu"
                     description="222"
                   />

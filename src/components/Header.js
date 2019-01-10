@@ -5,7 +5,7 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['Cornell Quant Club', '😉', '--.- ..- .- -. - .. - .- - .. ...- .'];
+    const strings  = ['Cornell Quant Club', '--.- ..- .- -. - .. - .- - .. ...- .'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
@@ -29,19 +29,19 @@ export default class Header extends Component {
     return (
       <React.Fragment> 
       <header id="home">
-         <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-             <li><a className="smoothscroll" href="#mission">Mission</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Work</a></li>
-               <li><a className="smoothscroll" href="#photos">Team</a></li>
-               <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Words</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-            </ul>
-         </nav>
+          <ul id="nav" className="nav">
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#mission">Mission</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
+            <li><a className="smoothscroll" href="#photos">Team</a></li>
+            <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
+            <li><a className="smoothscroll" href="#testimonials">Words</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
 
          <div className="row banner">
             <div className="banner-text">

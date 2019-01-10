@@ -272,6 +272,7 @@ ul#nav li.current a { color: #F06000; }
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
+   text-align:justify;
 }
 #mission .info span {
    margin-right: 5px;
@@ -430,7 +431,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #676262;
 }
 
 /* Portfolio Content */
@@ -616,7 +617,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #676262;
 }
 /* Portfolio Content */
 #timeline-wrapper .columns { margin-bottom: 36px; }
@@ -786,7 +787,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #676262;
 }
 
 /* photos Content */
@@ -1049,13 +1050,14 @@ call-to-action .button {
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
-   font-size: 24px;
+   font-size: 30px;
    line-height: 48px;
    color: #fff
 }
 #testimonials blockquote cite {
+   font-family: 'librebaskerville-italic', serif;
    display: block;
-   font-size: 12px;
+   font-size: 20px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
@@ -1186,8 +1188,8 @@ call-to-action .button {
 }
 
 #contact h4 {
-   font: 20px/28px 'opensans-bold', sans-serif;
-   color: rgb(52, 18, 116);
+   font: 24px/32px 'opensans-bold', sans-serif;
+   color: rgb(180, 26, 32);
    /* margin-bottom: 6px; */
 }
 #contact p.lead {
