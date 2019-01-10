@@ -114,5 +114,8 @@ Large images will reduce loading speed.
 ## Iphone X
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IphoneX.gif)
 
+## IPad
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/Ipad.gif)
+
 ## IPad Pro
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)
