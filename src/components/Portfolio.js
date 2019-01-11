@@ -12,8 +12,8 @@ export default class Porfolio extends Component {
             {
               webData.portfolio && webData.portfolio.map((item)=>{
                 return( 
-                  <div className="columns portfolio-item" key={item.imgurl}>
-                    <div className="item-wrap" style={{ background: '#d4ffcc'}}>
+                  <div className="columns portfolio-item " key={item.imgurl}>
+                    <div className="center_smalldevice item-wrap" style={{ background: '#d4ffcc'}}>
                       <a href={"https://" + item.url }>
                       {/* <a href="#modal-02"> */}
                         <img src={`${item.imgurl}`} className="item-img" alt=''/>

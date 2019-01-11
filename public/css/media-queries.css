@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 70px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 50px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -99,6 +99,33 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   /* Start small img */
+   .center_smalldevice {
+      margin-left: auto; 
+      margin-right: auto;
+   }
+
+   /* Start: Adapt small screen portfolio */
+   .portfolio-item-meta p {
+      font: 13px/15px 'opensans', sans-serif;
+   }
+   .portfolio-item .portfolio-item-meta h5 {
+      font: 13px/15px 'opensans-bold', sans-serif;
+   }
+  /* End: Adapt small screen portfolio */
+
+   .item-wrap {
+      width: 40% !important;
+   }
+   /* End small img */
+   #mission .info {
+      font: 17px/31px 'librebaskerville-italic', serif;
+      color: #6E7881;
+      margin-bottom: 18px;
+      margin-top: 9px;
+      text-align:justify;
+   }
+
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -191,7 +218,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 35px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -233,7 +260,7 @@
    }
    #mission h1 { letter-spacing: 3px; }
    #mission .main-col { padding-right: 30px; }
-   #mission h3, #mission .info { text-align: center; }
+   #mission h3, #mission .info { text-align: justify; }
       
    .bars { width: 100%; }
 
@@ -353,6 +380,14 @@
 
 @media only screen and (max-width: 480px) {
 
+   #mission .info {
+      font: 16px/29px 'librebaskerville-italic', serif;
+      color: #6E7881;
+      margin-bottom: 18px;
+      margin-top: 9px;
+      text-align:justify;
+   }
+
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
@@ -361,7 +396,7 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 30px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
