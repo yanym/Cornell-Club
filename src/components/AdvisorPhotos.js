@@ -12,7 +12,7 @@ export default class photos extends Component {
             <h1>Advisor</h1>
               <Row>
                 <Col sm={0} lg={4}></Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -21,11 +21,11 @@ export default class photos extends Component {
                   >
                   <Meta style={{ fontSize: '16px' }}
                     title="Cornell"
-                    description="Creepy phd"
+                    description="Engineering"
                   />
                   </Card>
                 </Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -33,8 +33,8 @@ export default class photos extends Component {
                     cover={<img alt="example" src="images/photo1.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px' }}
-                    title="danainiu"
-                    description="222"
+                    title="Cornell Tech"
+                    description="Medical"
                   />
                   </Card>
                 </Col>

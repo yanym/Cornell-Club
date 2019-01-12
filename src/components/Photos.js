@@ -12,7 +12,7 @@ export default class photos extends Component {
             <h1>Team</h1>
               <Row>
                 <Col sm={0} lg={4}></Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card 
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -25,7 +25,7 @@ export default class photos extends Component {
                   />
                   </Card>
                 </Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -33,17 +33,14 @@ export default class photos extends Component {
                     cover={<img alt="example" src="images/photo2.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px' }}
-                    title="danainiu"
-                    description="222"
+                    title="Upenn"
+                    description="CIS"
                   />
                   </Card>
                 </Col>
               </Row>
-              <div><br></br></div>
-              <div><br></br></div>
-              <div><br></br></div>
               <Row>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -51,12 +48,12 @@ export default class photos extends Component {
                     cover={<img alt="example" src="images/photo2.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px'}}
-                    title="laomuzhu"
-                    description="333"
+                    title="UMich"
+                    description="Good"
                   />
                   </Card>
                 </Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -64,12 +61,12 @@ export default class photos extends Component {
                     cover={<img alt="example" src="images/photo3.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px'}}
-                    title="xiaoniunai"
-                    description="444"
+                    title="MIT"
+                    description="Best"
                   />
                   </Card>
                 </Col>
-                <Col xs={24} md={12} lg={8}>
+                <Col xs={12} md={12} lg={8}>
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -77,8 +74,8 @@ export default class photos extends Component {
                     cover={<img alt="example" src="images/photo2.jpg" />}
                   >
                   <Meta style={{ fontSize: '16px'}}
-                    title="daniunai"
-                    description="555"
+                    title="Caltech"
+                    description="Second"
                   />
                   </Card>
                 </Col>
