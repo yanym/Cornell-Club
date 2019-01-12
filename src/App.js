@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import webData from './webData';
 import Photos from './components/Photos'
 import AdvisorPhotos from './components/AdvisorPhotos'
+import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <Photos />
         <AdvisorPhotos />
         <Timeline />
+        <Cooperation />
         <Testimonials webData={webData}/>
         <ContactUs webData={webData}/>
         <Footer webData={webData}/>

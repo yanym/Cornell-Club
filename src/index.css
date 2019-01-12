@@ -13,3 +13,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media only screen and (max-width: 900px) {
+  .ant-card-meta-title {
+    font-size: 15px !important;
+  }
+  .ant-card-meta-description {
+    font-size: 15px !important;
+  }
+  .ant-card {
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #testimonials {
+    display: none;
+  }
+  #testimonials_li {
+    display: none !important;
+  }
+
+  .ant-card-meta-title {
+    font-size: 15px !important;
+  }
+  .ant-card-meta-description {
+    font-size: 15px !important;
+  }
+  .ant-card {
+    width: 90% !important;
+  }
+}

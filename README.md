@@ -121,6 +121,8 @@ Large images will reduce loading speed.
 ## IPad Pro
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)  
 
+## You may see that 'Words' section is hidden in mobile device due to bad compatibility. You can show that by edit index.css file.
 
+  
 ## Thanks [CMU AI+](http://cmu.aiplus.club/) for layout reference.
 
