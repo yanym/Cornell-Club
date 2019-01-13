@@ -4,7 +4,7 @@ import { Timeline, Icon } from 'antd';
 export default class timeline extends Component {
 	render() {
 		return (
-			<section id="timeline">
+			<section id="timeline" style= {{ background: "#fafbff" }}>
 				<div className="row">
 					<div className="twelve columns collapsed">
 						<h1>Timeline</h1>

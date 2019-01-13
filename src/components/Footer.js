@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     let webData = this.props.webData;
     return (
-      <footer style= {{ background: '#f8fcf9' }}>
+      <footer style= {{ background: '#fafbff' }}>
       <div  className="row">
         <div className="twelve columns">
           <ul className="social-links">

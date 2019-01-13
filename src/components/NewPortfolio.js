@@ -25,7 +25,7 @@ export default class Porfolio extends Component {
 		// );
 
 		return (
-			<section id="portfolio" style={{ background: '#f7f8ff'}}>
+			<section id="portfolio" style={{ background: '#fafbff'}}>
 				<div className="row">
 					<div className="twelve columns" >
 						<h1>Current Work</h1>
