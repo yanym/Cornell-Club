@@ -422,6 +422,13 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+.portfolio-item-meta p {
+   font: 13px/15px 'opensans', sans-serif;
+}
+.portfolio-item .portfolio-item-meta h5 {
+   font: 13px/15px 'opensans-bold', sans-serif;
+}
+
 #portfolio {
    background: #ebeeee;
    padding-top: 40px;
@@ -439,6 +446,12 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
+   /* Dont let img too big in full size web */
+   width: 80%;
+   /* Let the img right at middle */
+   margin-right: auto;
+   margin-left: auto;
+
    background: #fff;
    overflow: hidden;
    /* Important! */

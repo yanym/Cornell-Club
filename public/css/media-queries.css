@@ -24,6 +24,19 @@
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
+      /* Start: Adapt small screen portfolio */
+      .portfolio-item-meta p {
+         font: 12px/13px 'opensans', sans-serif;
+      }
+      .portfolio-item .portfolio-item-meta h5 {
+         font: 12px/13px 'opensans-bold', sans-serif;
+      }
+     /* End: Adapt small screen portfolio */
+   
+      .item-wrap {
+         width: 40% !important;
+      }
+      /* End small img */
 
     /* header styles
    ------------------------------------------------------------------ */
@@ -92,6 +105,8 @@
 
 }
 
+
+
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
 
@@ -107,10 +122,10 @@
 
    /* Start: Adapt small screen portfolio */
    .portfolio-item-meta p {
-      font: 13px/15px 'opensans', sans-serif;
+      font: 11px/12px 'opensans', sans-serif;
    }
    .portfolio-item .portfolio-item-meta h5 {
-      font: 13px/15px 'opensans-bold', sans-serif;
+      font: 11px/12px 'opensans-bold', sans-serif;
    }
   /* End: Adapt small screen portfolio */
 
@@ -375,13 +390,37 @@
 
 }
 
+
+
+
+
+
+
 /* mobile narrow
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
 
+
+   /* Start: Adapt small screen portfolio */
+   .portfolio-item-meta p {
+      font: 11px/12px 'opensans', sans-serif;
+   }
+   .portfolio-item .portfolio-item-meta h5 {
+      font: 11px/12px 'opensans-bold', sans-serif;
+   }
+  /* End: Adapt small screen portfolio */
+
+   .item-wrap {
+      width: 40% !important;
+   }
+   /* End small img */
+
+
+
+
    #mission .info {
-      font: 16px/29px 'librebaskerville-italic', serif;
+      font: 14px/26px 'librebaskerville-italic', serif;
       color: #6E7881;
       margin-bottom: 18px;
       margin-top: 9px;
