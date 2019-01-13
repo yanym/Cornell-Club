@@ -608,7 +608,9 @@ input[type="checkbox"] { display: inline; }
 
 .narrow .row { max-width: 980px; }
 
-.row .row { width: auto; max-width: none; margin: 0 -20px; }
+/* Fix the BUG that page cannot show full in the screen. */
+/* .row .row { width: auto; max-width: none; margin: 0 -20px; } */
+.row .row { width: auto; max-width: none; }
 
 /* row clearing */
 .row:before,
