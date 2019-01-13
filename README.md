@@ -1,6 +1,7 @@
-# Update
-Portfolio.js and PastPortfolio.js provide one way for you to display the data which you can check the demos at the buttom of the README.md, denoted as 'Style 1'.  
-NewPortfolio.js and NewPastPortfolio.js provide the other way for displaying which you can check 'Style 2' at Demo section.  
+# Update for an alternative displaying style
+Portfolio.js and PastPortfolio.js provide one way for you to display the data which you can check the demos at the buttom of the README.md, denoted as 'Style-1'.   
+NewPortfolio.js and NewPastPortfolio.js provide the other way for displaying which you can check 'Style-2' at Demo section.  
+
 ## How to switch styles?  
 Open App.js and comment or uncomment these two components.
 
@@ -111,11 +112,7 @@ Large images will reduce loading speed.
 [Try a Unique Powerful JavaScript algorithm to reduce image size by up to 90% without compromising quality](https://www.picdiet.com/).
 
 
-## ***Note: The project remove _openClick from magnific-popup.js***
-*If you want to use popup when you click the portfolio project, please undo the comment of _openClick function and use href='modal-xx' (Eg. href='modal-01') href in Portfolio and PastPortfolio. Also, the magnific-popup.js is not compressed, which means affects a little bit loading performance.*  
-
-
-# Demo
+# Demo-Style1
 ## PC
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/PC.gif)  
 
@@ -128,8 +125,18 @@ Large images will reduce loading speed.
 ## IPad Pro
 ![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IpadPro.gif)  
 
-## You may see that 'Words' section is hidden in mobile device due to bad compatibility. You can show that by edit index.css file.
+# Demo-Style2
+## PC  
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/PC-style2.gif)  
 
-  
-## Thanks [CMU AI+](http://cmu.aiplus.club/) for layout reference.
+## Iphone X  
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/IphoneX-style2.gif)  
+
+## IPad and Ipad Pro  
+![img](https://github.com/yanym/Cornell-Club/blob/master/public/images/Demo/Ipad-style2.gif) 
+
+
+### Some Notes
+ - The project remove _openClick from magnific-popup.js. If you want to use popup when you click the portfolio project, please undo the comment of _openClick function and use href='modal-xx' (Eg. href='modal-01') href in Portfolio and PastPortfolio. Also, the magnific-popup.js is not compressed, which means affects a little bit loading performance.  
+ - You may see that 'Words' section is hidden in mobile device due to bad compatibility. You can show that by edit index.css file.  
 

@@ -57,14 +57,14 @@ let webData = {
     ],
     "PastPortfolio":[
       {
-        "name":"project1",
+        "name":"Project1",
         "description":"past is past",
         "content":"The night after his ninety-fifth-birthday party, my father fell while turning around. ",
         "imgurl":"images/profilepic1.jpg",
         "url": "www.google.com"
       },
       {
-        "name":"project2",
+        "name":"Project2",
         "description":"mobileap2p",
         "content":"We gonna change the world.",
         "imgurl":"images/profilepic2.jpg",
