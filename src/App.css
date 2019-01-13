@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-list-item-extra {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}

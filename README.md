@@ -1,3 +1,10 @@
+# Update
+Portfolio.js and PastPortfolio.js provide one way for you to display the data which you can check the demos at the buttom of the README.md, denoted as 'Style 1'.  
+NewPortfolio.js and NewPastPortfolio.js provide the other way for displaying which you can check 'Style 2' at Demo section.  
+## How to switch styles?  
+Open App.js and comment or uncomment these two components.
+
+
 # Tech Stack
 - [React——The best front-end framework ever](https://reactjs.org/)
 - [Antd UI](https://ant.design/)

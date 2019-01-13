@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import webData from './webData';
 import Photos from './components/Photos'
 import AdvisorPhotos from './components/AdvisorPhotos'
+import NewPortfolio from './components/NewPortfolio'
+import NewPastPortfolio from './components/NewPastPortfolio'
 import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
 
@@ -18,8 +20,10 @@ class App extends Component {
       <div className="App">
         <Header webData={webData}/>
         <Mission webData={webData}/>
-        <Portfolio webData={webData}/>
-        <PastPortfolio webData={webData}/>
+        {/* <Portfolio webData={webData}/>
+        <PastPortfolio webData={webData}/> */}
+        <NewPortfolio webData={webData}/>
+        <NewPastPortfolio webData={webData}/>
         <Photos />
         <AdvisorPhotos />
         <Timeline />

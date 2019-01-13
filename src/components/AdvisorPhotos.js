@@ -15,7 +15,7 @@ export default class photos extends Component {
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '40%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/photo2.jpg" />}
                   >
@@ -28,7 +28,7 @@ export default class photos extends Component {
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '40%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/photo1.jpg" />}
                   >
