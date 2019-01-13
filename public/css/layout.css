@@ -240,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
 
 #mission {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 50px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -431,8 +431,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 40px;
-   padding-bottom: 25px;
+   padding-top: 50px;
+   /* padding-bottom: 25px; */
 }
 #portfolio h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
@@ -910,7 +910,7 @@ ul#nav li.current a { color: #F06000; }
 #photos {
    background: #ebeeee;
    padding-top: 50px;
-   padding-bottom: 25px;
+   /* padding-bottom: 25px; */
 }
 #photos h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
