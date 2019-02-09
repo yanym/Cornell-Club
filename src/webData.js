@@ -1,8 +1,8 @@
 let webData = {
-    "role": "Glug, glug, woohoo!",
+    "role": "In Cornell Quant We Trust",
     "name": "Cornell Quant Club ",
-    "addr": "133 Duffield Hall, Cornell University",
-    "email": "milk@cornell.edu",
+    "addr": "Cornell University",
+    "email": "hz459@cornell.edu",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,7 @@ let webData = {
       ],
     "mission":[
       {
-        "specialization":"“Does this mean you’re going to make l to me tonight, Christian?” Holy s. Did I just say that? His mouth drops open slightly, but he recovers quickly. “No, Anastasia it doesn’t. Firstly, I don’t make l. I f… hard. Secondly, there’s a lot more paperwork to do, and thirdly, you don’t yet know what you’re in for. You could still run for the hills. Come, I want to show you my playroom.” My mouth drops open. F hard! Holy s, that sounds so… hot. But why are we looking at a playroom? I am mystified. “You want to play on your Xbox?” I ask. He laughs, loudly. “No, Anastasia, no Xbox, no Playstation. Come.”… Producing a key from his pocket, he unlocks yet another door and takes a deep breath. “You can leave anytime. The helicopter is on stand-by to take you whenever you want to go, you can stay the night and go home in the morning. It’s fine whatever you decide.” “Just open the damn door, Christian.” He opens the door and stands back to let me in. I gaze at him once more. I so want to know what’s in here. Taking a deep breath I walk in. And it feels like I’ve time-traveled back to the sixteenth century and the Spanish Inquisition.”"
+        "specialization":"CornellQuant is an organization to encourage interdisciplinary research and engineering. We aim to provide a platform where we could communicate, learn the cutting-edge data science tech, and identify the key challenges as well as opportunities interdisciplinary areas. We wish to create an environment where our members can generate new ideas and be more creative not only in research but also in real-world applications. At present, we focus on machine /deep learning and optimization methods that could bridge that gap between quantitative analysis and industry applications. We regularly hold seminars organize discussions on these topics with professors in related fields and would raise interesting projects for members to get hands on experience."
       },
     ],
     "portfolio":[

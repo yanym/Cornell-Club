@@ -9,28 +9,28 @@ export default class timeline extends Component {
 					<div className="twelve columns collapsed">
 						<h1>Timeline</h1>
 						<Timeline mode="alternate" >
-							<Timeline.Item style={{ fontSize: '15px' }}>
+							{/* <Timeline.Item style={{ fontSize: '15px' }}>
 								Create a services site 2019-01-01
-							</Timeline.Item>
+							</Timeline.Item> */}
 
 							<Timeline.Item color="green" style={{ fontSize: '15px' }}>
-								Solve initial network problems 2018-09-01
+								Runqian Huang, our alumnus, started his job 02/09/2019
 							</Timeline.Item >
 
-							<Timeline.Item style={{ fontSize: '15px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
+							{/* <Timeline.Item style={{ fontSize: '15px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
 								Buy a cow. 
-							</Timeline.Item>
+							</Timeline.Item> */}
 
 							<Timeline.Item color="red" style={{ fontSize: '15px' }}>
-								Network problems being solved 2017-09-01
+								Rongguang Wang, our alumnus, got PhD offer from 02/07/2019 
 							</Timeline.Item>
 
 							<Timeline.Item style={{ fontSize: '15px' }}>
-								Create a services site 2016-09-01
+								Quantitative Research Club got officially approved by Cornell 01/30/2019 
 							</Timeline.Item>
 
 							<Timeline.Item style={{ fontSize: '15px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
-								Tech 2015-09-01
+								Web Prototype 11/18/2018
 							</Timeline.Item>
 						</Timeline>
 					</div>
