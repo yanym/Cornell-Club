@@ -49,6 +49,6 @@ code {
 /* Beautify the NewPortfolio images for mobile phone */
 @media only screen and (max-width: 424px) {
   #newportfolio_ {
-    width: 48px;
+    /* width: 48px; */
   }
 }

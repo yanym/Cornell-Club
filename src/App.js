@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import webData from './webData';
 import Photos from './components/Photos'
+import Alumni from './components/Alumni'
 import AdvisorPhotos from './components/AdvisorPhotos'
 import NewPortfolio from './components/NewPortfolio'
 import NewPastPortfolio from './components/NewPastPortfolio'
@@ -26,6 +27,7 @@ class App extends Component {
         <NewPastPortfolio webData={webData}/>
         <Photos />
         <AdvisorPhotos />
+        <Alumni />
         <Timeline />
         <Cooperation />
         <Testimonials webData={webData}/>

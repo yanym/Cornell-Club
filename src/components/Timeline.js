@@ -13,7 +13,7 @@ export default class timeline extends Component {
 								Create a services site 2019-01-01
 							</Timeline.Item> */}
 
-							<Timeline.Item color="green" style={{ fontSize: '15px' }}>
+							<Timeline.Item color="green" style={{ fontSize: '13px' }}>
 								Runqian Huang, our alumnus, started his job 02/09/2019
 							</Timeline.Item >
 
@@ -21,15 +21,15 @@ export default class timeline extends Component {
 								Buy a cow. 
 							</Timeline.Item> */}
 
-							<Timeline.Item color="red" style={{ fontSize: '15px' }}>
+							<Timeline.Item color="red" style={{ fontSize: '13px' }}>
 								Rongguang Wang, our alumnus, got PhD offer from 02/07/2019 
 							</Timeline.Item>
 
-							<Timeline.Item style={{ fontSize: '15px' }}>
+							<Timeline.Item style={{ fontSize: '13px' }}>
 								Quantitative Research Club got officially approved by Cornell 01/30/2019 
 							</Timeline.Item>
 
-							<Timeline.Item style={{ fontSize: '15px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '15px' }} />}>
+							<Timeline.Item style={{ fontSize: '13px' }} dot={<Icon type="clock-circle-o" style={{ fontSize: '13px' }} />}>
 								Web Prototype 11/18/2018
 							</Timeline.Item>
 						</Timeline>
