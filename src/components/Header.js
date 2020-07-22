@@ -37,8 +37,7 @@ export default class Header extends Component {
             <li><a className="smoothscroll" href="#mission">Mission</a></li>
             <li><a className="smoothscroll" href="#portfolio">Contests</a></li>
             <li><a className="smoothscroll" href="#photos">Team</a></li>
-            <li id='testimonials_li'><a className="smoothscroll" href="#testimonials">Words</a></li>
-            <li><a className="smoothscroll" href="#cooperations">Apply</a></li>
+            <li><a className="smoothscroll" href="#mission">Apply</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -53,22 +52,14 @@ export default class Header extends Component {
                   />
                 </h1>
               </div>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> 
+               <h3 style={{color:'#fff', fontFamily:'Arial'}}> 
                 {webData.role} 
                </h3>
                {webData.roleDescription}
                <hr/>
-               <ul className="social">
-                  {
-                    webData.socialLinks && webData.socialLinks.map(item =>{
-                      return(
-                        <li key={item.name}>
-                          <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                        </li>
-                      )
-                    })
-                  }
-               </ul>
+               
+               
+               
             </div>
          </div>
          <p className="scrolldown">

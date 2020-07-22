@@ -2,7 +2,7 @@ let webData = {
     "role": "",
     "name": "San Marino Math Team",
     "addr": "2701 Huntington Dr, San Marino, CA 91108",
-    "email": "",
+    "email": "smmathteam(at)gmail.com",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,8 @@ let webData = {
       ],
     "mission":[
       {
-        "specialization":"CornellQuant is an organization to encourage interdisciplinary research and engineering. We aim to provide a platform where we could communicate, learn the cutting-edge data science tech, and identify the key challenges as well as opportunities interdisciplinary areas. We wish to create an environment where our members can generate new ideas and be more creative not only in research but also in real-world applications. At present, we focus on machine /deep learning and optimization methods that could bridge that gap between quantitative analysis and industry applications. We regularly hold seminars organize discussions on these topics with professors in related fields and would raise interesting projects for members to get hands on experience."
+        "specialization":"San Marino Math Team is an award winning team that represents SMHS at various math competitions throughout the year, including the Bay Math League (series of 4 after-school competitions) and Math Day at the Beach (at Cal State Long Beach). Math Team members also participate in several write-in competitions as individuals and as a team. Additionally, members have the opportunity to participate in several national contests including the AMC and ARML.",
+        "apply": "When reading an application, we get to know the person behind the numbers. We take into consideration your academic achievements, extracurricular activities, personal qualities, and life experiences. Just as there is no typical Harvard student, there is no ideal Harvard applicant. We look forward to learning more about you."
       },
     ],
     "portfolio":[
@@ -57,18 +58,11 @@ let webData = {
     ],
     "PastPortfolio":[
       {
-        "name":"Project1",
-        "description":"past is past",
-        "content":"The night after his ninety-fifth-birthday party, my father fell while turning around. ",
+        "name":"",
+        "description":"",
+        "content":"",
         "imgurl":"images/profilepic1.jpg",
-        "url": "www.google.com"
-      },
-      {
-        "name":"Project2",
-        "description":"mobileap2p",
-        "content":"We gonna change the world.",
-        "imgurl":"images/profilepic2.jpg",
-        "url": "www.google.com"
+        "url": "airtable.com/shrfQg0eWjQAp7qoN"
       }
     ],
     "testimonials":[

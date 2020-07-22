@@ -14,9 +14,9 @@ export default class ContactUs extends Component {
             <p className="address">
               <span>{webData.name}</span>
               <br></br>
-              <span>Addr: {webData.addr}</span>
+              <span>{webData.addr}</span>
               <br></br>
-              <span>Email: {webData.email}</span>
+              <span>{webData.email}</span>
             </p>
             <br></br>
             <img src='images/2880px-Cornell_University_logo.svg.png' alt='' style={{ height:71.5 }}></img>
