@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Card, Row, Col} from 'antd';
 
-export default class Cooperation extends Component {
+export default class Apply extends Component {
 		render() {
 				return (
 					<section id="cooperations" style={{ background: 'white' }}>
 						<div className="row" >
 							<div className="twelve columns" >
-							<h1>Cooperator</h1>
+							<h1>Apply</h1>
 								<Row>
 									<Col xs={6} sm={6} md={6} lg={4}>
 										<Card

@@ -1,8 +1,8 @@
 let webData = {
-    "role": "In Cornell Quant We Trust",
-    "name": "Cornell Quant Club ",
-    "addr": "Cornell University",
-    "email": "hz459@cornell.edu",
+    "role": "",
+    "name": "San Marino Math Team",
+    "addr": "2701 Huntington Dr, San Marino, CA 91108",
+    "email": "",
     "socialLinks":[
         {
           "name":"linkedin",

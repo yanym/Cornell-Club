@@ -22,14 +22,14 @@ export default class Footer extends Component {
           </ul>
         </div>
         <div id="go-top">
-          <a style={{ background: '#b41a20' }} className="smoothscroll" title="Back to Top" href="#home">
+          <a style={{ background: '#0000FF' }} className="smoothscroll" title="Back to Top" href="#home">
             <i className="icon-up-open"/>
           </a>
         </div>
         <div>
-        <a href='https://www.linkedin.com/in/y-yan'>&copy;</a>2019 Cornell Quant Club&nbsp;|&nbsp; All right reserved.
+        <a >&copy;</a>2020 San Marino Math Team&nbsp;|&nbsp; All right reserved.
          <br></br>
-         Cornell University, Ithaca, NY
+         San Marino High School, San Marino, CA
         </div>
       </div>
     </footer>

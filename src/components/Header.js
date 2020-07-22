@@ -5,11 +5,11 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['Cornell Quant Research','Deep/Statistical Learning', 'Quantitative Finance', 'Quant Medical Bio Science', '--.- ..- .- -. - .. - .- - .. ...- .'];
+    const strings  = ['San Marino Math Team','Competitive Mathematics'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
-      typeSpeed: 50,
+      typeSpeed: 70,
       backSpeed: 80,
       loop: true,
       loopCount: Infinity
@@ -35,11 +35,10 @@ export default class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#mission">Mission</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Contests</a></li>
             <li><a className="smoothscroll" href="#photos">Team</a></li>
-            <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
             <li id='testimonials_li'><a className="smoothscroll" href="#testimonials">Words</a></li>
-            <li><a className="smoothscroll" href="#cooperations">Cooperators</a></li>
+            <li><a className="smoothscroll" href="#cooperations">Apply</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul>
         </nav>

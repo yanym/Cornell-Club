@@ -28,7 +28,7 @@ export default class Porfolio extends Component {
 			<section id="portfolio" style={{ background: '#fafbff'}}>
 				<div className="row">
 					<div className="twelve columns" >
-						<h1>Current Work</h1>
+						<h1>Contests</h1>
 							<List
 								itemLayout="vertical"
 								size="default"

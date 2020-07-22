@@ -10,7 +10,7 @@ export default class ContactUs extends Component {
             <br></br>
             {/* h1 has before attr, which is a cute pink envelope. Remove comment below to enable it. */}
             {/* <h1></h1> */}
-            <h4>Contact us</h4>
+            <h3>Contact us</h3>
             <p className="address">
               <span>{webData.name}</span>
               <br></br>
