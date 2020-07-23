@@ -16,7 +16,7 @@ export default class photos extends Component {
                   <Card 
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/matthew.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
@@ -29,12 +29,25 @@ export default class photos extends Component {
                 <Col xs={12} sm={8} md={8} lg={8}>                  <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/jeffrey.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px' }}
                     title="Jeffrey Deng"
                     description="President"
+                  />
+                  </Card>
+                </Col>
+                <Col xs={12} sm={8} md={8} lg={8}>
+                  <Card
+                    hoverable={false}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="images/michael.jpg" />}
+                  >
+                  <Meta style={{ fontSize: '15px'}}
+                    title="Michael Wang"
+                    description="Event Coordinator"
                   />
                   </Card>
                 </Col>
@@ -44,7 +57,7 @@ export default class photos extends Component {
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/Angel.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
@@ -57,7 +70,7 @@ export default class photos extends Component {
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/Leo.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
@@ -70,27 +83,12 @@ export default class photos extends Component {
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/LeoL.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
                     title="Leo Li"
                     description="Treasurer"
-                  />
-                  </Card>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/michael.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Michael Wang"
-                    description="Event Coordinator"
                   />
                   </Card>
                 </Col>
