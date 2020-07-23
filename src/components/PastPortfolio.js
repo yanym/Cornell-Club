@@ -13,7 +13,7 @@ export default class Porfolio extends Component {
               webData.portfolio && webData.PastPortfolio.map((item)=>{
                 return(   
                   <div allign= "center" className="columns portfolio-item" key={item.imgurl}>
-                    <div className="center_smalldevice item-wrap" style={{ background: '#c2e9fe' }}>
+                    <div className="columns portfolio-item" style={{ background: '#c2e9fe' }}>
                       <a href={"https://" + item.url }>
                       {/* <a href="#modal-01"> */}
                         <img src={`${item.imgurl}`} className="item-img" alt=''/>

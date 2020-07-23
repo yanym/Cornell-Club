@@ -9,7 +9,7 @@ export default class photos extends Component {
         <section id="photos" style={{ background: '#fff6f6' }}>
           <div className="row" >
             <div className="twelve columns" >
-            <h1>Team</h1>
+            <h1>Cabinet</h1>
               <Row>
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card 
