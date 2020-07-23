@@ -6,7 +6,7 @@ const { Meta } = Card;
 export default class photos extends Component {
   render() {
       return (
-        <section id="photos" style={{ background: 'white' }}>
+        <section id="photos" style={{ background: '#fff6f6' }}>
           <div className="row" >
             <div className="twelve columns" >
             <h1>Team</h1>
@@ -76,6 +76,21 @@ export default class photos extends Component {
                   <Meta style={{ fontSize: '15px'}}
                     title="Leo Li"
                     description="Treasurer"
+                  />
+                  </Card>
+                </Col>
+              </Row>
+              <Row>
+                <Col xs={12} sm={8} md={8} lg={8}>
+                  <Card
+                    hoverable={false}
+                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="images/michael.jpg" />}
+                  >
+                  <Meta style={{ fontSize: '15px'}}
+                    title="Michael Wang"
+                    description="Event Coordinator"
                   />
                   </Card>
                 </Col>
