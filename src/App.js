@@ -21,7 +21,6 @@ class App extends Component {
       <div className="App">
         <Header webData={webData}/>
         <Mission webData={webData}/>
-        <PastPortfolio webData={webData} />
         <Photos />
   
         <ContactUs webData={webData}/>
