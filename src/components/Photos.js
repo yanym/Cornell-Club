@@ -71,11 +71,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="images/LeoL.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="Caltech"
-                    description="Second"
+                    title="Leo Li"
+                    description="Treasurer"
                   />
                   </Card>
                 </Col>
