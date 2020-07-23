@@ -11,7 +11,6 @@ export default class photos extends Component {
             <div className="twelve columns" >
             <h1>Team</h1>
               <Row>
-                <Col sm={4} md={4} lg={4}></Col>
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card 
                     hoverable={false}
@@ -26,7 +25,8 @@ export default class photos extends Component {
                   </Card>
                 </Col>
                 
-                <Col xs={12} sm={8} md={8} lg={8}>                  <Card
+                <Col xs={12} sm={8} md={8} lg={8}>
+                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={true}
@@ -42,7 +42,7 @@ export default class photos extends Component {
                   <Card
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
+                    bordered={true}
                     cover={<img alt="example" src="images/michael.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
