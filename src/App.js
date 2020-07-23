@@ -22,11 +22,6 @@ class App extends Component {
         <Header webData={webData}/>
         <Mission webData={webData}/>
         <PastPortfolio webData={webData} />
-        <Testimonials webData={webData}/>
-        <NewPortfolio webData={webData}/>
-        <Photos />
-        <AdvisorPhotos />
-        <Alumni />
         
   
         <ContactUs webData={webData}/>

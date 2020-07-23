@@ -28,11 +28,11 @@ let webData = {
     ],
     "portfolio":[
       {
-        "name":"Google",
+        "name":"American Mathematics Competitions(AMC)",
         "description":"Google is the best",
-        "content":"The night before his ninety-fifth-birthday party, my father fell while turning around. The night before his ninety-fifth-birthday party, my father fell while turning around. ",
+        "content":"The American Mathematics Competitions are the contests that the students strive to take every year. These contests generate great discussions and are a joy of the participating students and the mathematics department at Detroit Country Day School. ",
         "imgurl":"images/Google.jpg",
-        "url": "www.google.com"
+        "url": "https://www.maa.org/math-competitions"
       },
       {
         "name":"Facebook",
