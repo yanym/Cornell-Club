@@ -22,7 +22,7 @@ class App extends Component {
         <Header webData={webData}/>
         <Mission webData={webData}/>
         <PastPortfolio webData={webData} />
-        
+        <Photos />
   
         <ContactUs webData={webData}/>
         <Footer webData={webData}/>

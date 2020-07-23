@@ -17,11 +17,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
+                    cover={<img alt="example" src="images/matthew.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="Cornell"
-                    description="Engineering phddddd testing the length"
+                    title="Matthew Lee"
+                    description="Captain"
                   />
                   </Card>
                 </Col>
@@ -30,11 +30,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="images/jeffrey.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px' }}
-                    title="Upenn"
-                    description="CIS"
+                    title="Jeffrey Deng"
+                    description="President"
                   />
                   </Card>
                 </Col>
@@ -45,11 +45,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="images/Angel.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="UMich"
-                    description="Good"
+                    title="Angel Yang"
+                    description="VP"
                   />
                   </Card>
                 </Col>
@@ -58,11 +58,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo3.jpg" />}
+                    cover={<img alt="example" src="images/Leo.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="MIT"
-                    description="Best"
+                    title="Leo Zhang"
+                    description="Co-Captain"
                   />
                   </Card>
                 </Col>
