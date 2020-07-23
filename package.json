@@ -1,7 +1,7 @@
 {
   "name": "cornell_club",
   "version": "1.0.0",
-  "homepage": "http://bat-kryptonyte.github.io/Cornell-Club",
+  "homepage": "http://bat-kryptonyte.github.io/Math-Team",
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",

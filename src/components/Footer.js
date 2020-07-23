@@ -9,11 +9,7 @@ export default class Footer extends Component {
         <div className="twelve columns">
           
         </div>
-        <div id="go-top">
-          <a style={{ background: '#000000' }} className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open"/>
-          </a>
-        </div>
+        
         <div>
         <a >&copy;</a>2020 San Marino Math Team&nbsp;|&nbsp; All right reserved.
          <br></br>
