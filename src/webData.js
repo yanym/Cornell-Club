@@ -22,7 +22,7 @@ let webData = {
       ],
     "mission":[
       {
-        "specialization":"San Marino Math Team is an award winning team that represents SMHS at various math competitions throughout the year, including the Bay Math League (series of 4 after-school competitions) and Math Day at the Beach (at Cal State Long Beach). Math Team members also participate in several write-in competitions as individuals and as a team. Additionally, members have the opportunity to participate in several national contests including the AMC and ARML.",
+        "specialization":"San Marino Math Team is an award winning team that represents SMHS at various math competitions throughout the year, including the Bay Math League, CHMMC (Caltech Harvey Mudd Mathematic Competition) and Math Day at the Beach (at Cal State Long Beach). Math Team members also participate in several write-in competitions as individuals and as a team. Additionally, members have the opportunity to participate in several national contests including the AMC and AIME. We are now accepting applications to the 2020 - 2021 team.",
         "apply": "When reading an application, we get to know the person behind the numbers. We take into consideration your academic achievements, extracurricular activities, personal qualities, and life experiences. Just as there is no typical Harvard student, there is no ideal Harvard applicant. We look forward to learning more about you."
       },
     ],
