@@ -62,7 +62,7 @@ export default class photos extends Component {
                   >
                   <Meta style={{ fontSize: '15px'}}
                     title="Angel Yang"
-                    description="VP"
+                    description="Vice President"
                   />
                   </Card>
                 </Col>
