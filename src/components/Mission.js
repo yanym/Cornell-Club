@@ -16,9 +16,12 @@ export default  class Mission extends Component {
                           <br></br>
                           <p className="info">
                             {item.specialization}
+                            
                           </p>
+                          <a href="https://us02web.zoom.us/j/3401653632?pwd=NWNjT09qNEJpWnFQRlNrbTZTKzR2UT09"><p>Join our Informational Meeting </p></a>
+                          <p>At 4:00 PM PST August 19th, 2020</p>
                           <a href="https://airtable.com/shrfQg0eWjQAp7qoN/"><img alt="Apply" src="images/profilepic1.jpg"  ></img></a>
-                          
+                      
 
                        </div>
                     </div>
